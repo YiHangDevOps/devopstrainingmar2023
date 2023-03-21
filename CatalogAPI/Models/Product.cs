@@ -11,7 +11,7 @@ namespace CatalogAPI.Models
         [Column("Product_Id")]
         public long ProductId { get; set; }
         public ProductDescription Description { get; set; }
-
+	//user3 testing
         [ForeignKey("Catalog")]
         [Column("Catalog_Id_FK")]
         public long CatalogId { get; set; }
