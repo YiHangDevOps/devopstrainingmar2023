@@ -5,6 +5,9 @@ using System.Text.Json.Serialization;
 
 namespace CatalogAPI.Models
 {
+
+	//user2 modifying code
+
     [Table("Catalog")]
     public class Catalog
     {
