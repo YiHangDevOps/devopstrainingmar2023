@@ -7,6 +7,7 @@ namespace CatalogAPI.Models
     public class Product
     {
         [Key]
+//fdsafdsafdsalfdsafjdsalkfjkl
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("Product_Id")]
         public long ProductId { get; set; }
