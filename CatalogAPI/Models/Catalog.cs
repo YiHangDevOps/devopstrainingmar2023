@@ -14,10 +14,11 @@ namespace CatalogAPI.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
-	//Catalog ID add length constraint update by user3
+	//Catalog ID update by user2
         [Column("Catalog_Id")]
         public long CatalogId { get; set; }
         [Column("Catalog_Name")]
+	//modified user3
         [Required]
         [StringLength(50)]
         public string? CatalogName { get; set; }
