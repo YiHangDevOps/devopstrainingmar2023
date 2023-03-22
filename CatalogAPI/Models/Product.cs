@@ -6,6 +6,7 @@ namespace CatalogAPI.Models
     [Table("Product")]
     public class Product
     {
+//test user2
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("Product_Id")]
