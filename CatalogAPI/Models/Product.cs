@@ -8,6 +8,7 @@ namespace CatalogAPI.Models
     {
 //test user2
         [Key]
+//fdsafdsafdsalfdsafjdsalkfjkl
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("Product_Id")]
         public long ProductId { get; set; }

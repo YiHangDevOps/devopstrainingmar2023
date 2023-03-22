@@ -1,4 +1,4 @@
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
@@ -18,7 +18,11 @@ namespace CatalogAPI.Models
         [Column("Catalog_Id")]
         public long CatalogId { get; set; }
         [Column("Catalog_Name")]
+<<<<<<< HEAD
+	//modified user3
+=======
 	//cdacdsacdhfdjkhfkjsadh user 2
+>>>>>>> 00f75c648bf9f525fc16f490f7b49726cc3fd5f9
         [Required]
         [StringLength(50)]
         public string? CatalogName { get; set; }

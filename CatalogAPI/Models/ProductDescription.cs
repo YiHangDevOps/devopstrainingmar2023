@@ -8,6 +8,7 @@ namespace CatalogAPI.Models
     [Owned]
     public class ProductDescription
     {
+	///fdsfasdhjfdshakjlfhsadklfhdsk
          [DataType(DataType.Date)]
          [DisplayFormat(DataFormatString ="{0:MM dd yyyy}")]
         [Column("Manufacturing_Date")]
